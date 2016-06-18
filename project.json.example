@@ -1,0 +1,16 @@
+{
+  "name": "npmbot",
+  "description": "NPM notification bot",
+  "memory": 128,
+  "timeout": 5,
+  "role": "<replace_with_your_iam_role>",
+  "defaultEnvironment": "dev",
+  "handler": "build/index.default",
+  "hooks": {
+    "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js",
+    "clean": "rm -rf build"
+  },
+  "environment": {
+    "SLACK_URL": "<replace_with_your_slack_incoming_webhook_url>"
+  }
+}

@@ -1,0 +1,25 @@
+{ "event": "package:publish",
+  "name": "@socialtables/testhook",
+  "type": "package",
+  "version": "1.0.0",
+  "hookOwner": { "username": "fortruce" },
+  "payload":
+  { "_id": "@socialtables/testhook",
+	"_rev": "2-78ac7423dbf72ac8f2e60a9197e32573",
+	"name": "@socialtables/testhook",
+	"description": "test hook",
+	"dist-tags": { "latest": "0.0.2" },
+	"versions": { "0.0.1": [], "0.0.2": [] },
+	"readme": "ERROR: No README data found!",
+	"maintainers":
+	[],
+	"time":
+	{ "modified": "2016-06-18T00:20:38.620Z",
+	  "created": "2016-06-18T00:19:13.562Z",
+	  "0.0.1": "2016-06-18T00:19:13.562Z",
+	  "0.0.2": "2016-06-18T00:20:38.620Z" },
+	"license": "ISC",
+	"readmeFilename": "",
+	"_attachments": {} },
+  "change": { "dist-tag": "latest", "version": "0.0.2" },
+  "time": 1466209238759 }
